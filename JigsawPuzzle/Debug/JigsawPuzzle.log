@@ -1,37 +1,20 @@
-﻿Build started 2/9/2014 12:28:17 PM.
-Project "C:\TFS\JigsawPuzzle\JigsawPuzzle\JigsawPuzzle.vcxproj" on node 2 (build target(s)).
-PrepareForBuild:
-  Creating directory "C:\TFS\JigsawPuzzle\Debug\".
-InitializeBuildStatus:
-  Creating "Debug\JigsawPuzzle.unsuccessfulbuild" because "AlwaysCreate" was specified.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\JigsawPuzzle.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-  stdafx.cpp
-  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\JigsawPuzzle.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt JigsawPuzzle.cpp
-  JigsawPuzzle.cpp
-ResourceCompile:
-  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\JigsawPuzzle.res" JigsawPuzzle.rc 
-ManifestResourceCompile:
-  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\JigsawPuzzle.exe.embed.manifest.res" Debug\JigsawPuzzle_manifest.rc 
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\TFS\JigsawPuzzle\Debug\JigsawPuzzle.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\JigsawPuzzle.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\TFS\JigsawPuzzle\Debug\JigsawPuzzle.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\TFS\JigsawPuzzle\Debug\JigsawPuzzle.lib" /MACHINE:X86 Debug\JigsawPuzzle.res
-  Debug\JigsawPuzzle.exe.embed.manifest.res
-  Debug\JigsawPuzzle.obj
-  Debug\stdafx.obj
-Manifest:
-  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\JigsawPuzzle.exe.embed.manifest" /manifest Debug\JigsawPuzzle.exe.intermediate.manifest
-  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\JigsawPuzzle.exe.embed.manifest.res" Debug\JigsawPuzzle_manifest.rc 
-LinkEmbedManifest:
-  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\TFS\JigsawPuzzle\Debug\JigsawPuzzle.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\JigsawPuzzle.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\TFS\JigsawPuzzle\Debug\JigsawPuzzle.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\TFS\JigsawPuzzle\Debug\JigsawPuzzle.lib" /MACHINE:X86 Debug\JigsawPuzzle.res
-  Debug\JigsawPuzzle.exe.embed.manifest.res
-  Debug\JigsawPuzzle.obj
-  Debug\stdafx.obj
-  JigsawPuzzle.vcxproj -> C:\TFS\JigsawPuzzle\Debug\JigsawPuzzle.exe
-FinalizeBuildStatus:
-  Deleting file "Debug\JigsawPuzzle.unsuccessfulbuild".
-  Touching "Debug\JigsawPuzzle.lastbuildstate".
-Done Building Project "C:\TFS\JigsawPuzzle\JigsawPuzzle\JigsawPuzzle.vcxproj" (build target(s)).
+﻿Build started 2/9/2014 7:13:41 PM.
+     1>Project "C:\git\JigsawPuzzle\JigsawPuzzle\JigsawPuzzle.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\JigsawPuzzle.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\JigsawPuzzle.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt JigsawPuzzle.cpp JPMiniGame.cpp MiniGame.cpp WindowsGameRuntime.cpp
+         WindowsGameRuntime.cpp
+         MiniGame.cpp
+         JPMiniGame.cpp
+     1>c:\git\jigsawpuzzle\jigsawpuzzle\jpminigame.cpp(16): error C2723: 'JPMiniGame::~JPMiniGame' : 'override' storage-class specifier illegal on function definition
+     1>c:\git\jigsawpuzzle\jigsawpuzzle\jpminigame.cpp(23): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         JigsawPuzzle.cpp
+         Generating Code...
+     1>c:\git\jigsawpuzzle\jigsawpuzzle\windowsgameruntime.cpp(15): error C4716: 'WindowsGameRuntime::GetWidth' : must return a value
+     1>c:\git\jigsawpuzzle\jigsawpuzzle\windowsgameruntime.cpp(19): error C4716: 'WindowsGameRuntime::GetHeight' : must return a value
+     1>Done Building Project "C:\git\JigsawPuzzle\JigsawPuzzle\JigsawPuzzle.vcxproj" (Rebuild target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:02.10
+Time Elapsed 00:00:03.29

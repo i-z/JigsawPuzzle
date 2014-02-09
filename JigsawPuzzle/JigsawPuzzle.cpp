@@ -188,3 +188,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 	}
 	return (INT_PTR)FALSE;
 }
+
+void Render(const RECT& screenCoords, int textureId, const RECT& textureCoord)
+{
+}

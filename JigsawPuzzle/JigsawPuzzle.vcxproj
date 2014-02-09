@@ -72,22 +72,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="image001.png" />
     <None Include="JigsawPuzzle.ico" />
     <None Include="ReadMe.txt" />
     <None Include="small.ico" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="JigsawPuzzle.h" />
+    <ClInclude Include="JPMiniGame.h" />
+    <ClInclude Include="MiniGame.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="WindowsGameRuntime.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JigsawPuzzle.cpp" />
+    <ClCompile Include="JPMiniGame.cpp" />
+    <ClCompile Include="MiniGame.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="WindowsGameRuntime.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="JigsawPuzzle.rc" />
